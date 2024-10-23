@@ -9,7 +9,6 @@ spec:
   destination:
     namespace: helm-hooks
     server: {{ .Values.spec.destination.server }}
-  project: argo-example
   source:
     path: helm-hooks
     repoURL: {{ .Values.spec.source.repoURL }}
